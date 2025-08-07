@@ -1,0 +1,19 @@
+{
+  "name": "Airon",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.airon.ai/legal/terms-and-conditions",
+      "select": [
+        ".container-large"
+      ],
+      "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.airon.ai/legal/privacy-policy",
+      "select": [
+        ".container-large"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
