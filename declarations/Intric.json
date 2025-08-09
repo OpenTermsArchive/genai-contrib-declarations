@@ -1,0 +1,19 @@
+{
+  "name": "Intric",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.intric.ai/en/terms-and-conditions",
+      "select": [
+        ".section-33"
+      ],
+      "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.intric.ai/en/privacy-policy",
+      "select": [
+        ".section-33"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
