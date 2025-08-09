@@ -4,14 +4,14 @@
     "Terms of Service": {
       "fetch": "https://sambanova.ai/terms-and-conditions",
       "select": [
-        ".body-container-wrapper"
+        "main"
       ],
       "executeClientScripts": true
     },
     "Privacy Policy": {
       "fetch": "https://sambanova.ai/privacy-policy",
       "select": [
-        ".body-container-wrapper"
+        "main"
       ],
       "executeClientScripts": true
     }
