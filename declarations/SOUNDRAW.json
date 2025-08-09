@@ -4,13 +4,13 @@
     "Privacy Policy": {
       "fetch": "https://soundraw.io/privacy",
       "select": [
-        ".row"
+        ".container"
       ]
     },
     "Terms of Service": {
       "fetch": "https://soundraw.io/terms",
       "select": [
-        ".col-md-10"
+        ".container"
       ]
     }
   }
