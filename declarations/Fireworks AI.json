@@ -4,14 +4,24 @@
     "Terms of Service": {
       "fetch": "https://fireworks.ai/terms-of-service",
       "select": [
-        ".container"
+        "body"
+      ],
+      "remove": [
+        "#announcementBar",
+        "#header",
+        "#footer"
       ],
       "executeClientScripts": true
     },
     "Privacy Policy": {
       "fetch": "https://fireworks.ai/privacy-policy",
       "select": [
-        ".container"
+        "body"
+      ],
+      "remove": [
+        "#announcementBar",
+        "#header",
+        "#footer"
       ],
       "executeClientScripts": true
     }
