@@ -1,0 +1,19 @@
+{
+  "name": "Pirr",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.pirr.ai/terms-and-conditions",
+      "select": [
+        ".container"
+      ],
+      "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.pirr.ai/privacy-policy",
+      "select": [
+        ".container"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
