@@ -1,0 +1,12 @@
+{
+  "name": "Tandem Health",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.tandemhealth.ai/privacy-policy",
+      "select": [
+        ".container"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
