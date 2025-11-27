@@ -3,44 +3,15 @@
   "terms": {
     "Terms of Service": {
       "fetch": "https://docs.midjourney.com/docs/terms-of-service",
-      "select": [
-        ".content_container"
-      ],
-      "remove": [
-        "#lightTheme",
-        "#darkTheme",
-        "#ai-article-summary-callout",
-        "#navigation-container",
-        "#right_sidebar"
-      ],
-      "executeClientScripts": true
+      "select": "article"
     },
     "Privacy Policy": {
       "fetch": "https://docs.midjourney.com/docs/privacy-policy",
-      "select": [
-        ".content_container"
-      ],
-      "remove": [
-        "#navigation-container",
-        "#lightTheme",
-        "#darkTheme",
-        "#ai-article-summary-callout",
-        "#right_sidebar"
-      ],
-      "executeClientScripts": true
+      "select": "article"
     },
     "Community Guidelines": {
       "fetch": "https://docs.midjourney.com/docs/community-guidelines",
-      "select": [
-        ".content_container"
-      ],
-      "remove": [
-        "#navigation-container",
-        "#lightTheme",
-        "#darkTheme",
-        "#ai-article-summary-callout",
-        "#right_sidebar"
-      ]
+      "select": "article"
     }
   }
 }
