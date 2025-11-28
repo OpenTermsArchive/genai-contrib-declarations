@@ -1,6 +1,6 @@
 all:
   hosts:
-    51.77.110.109:
-      ansible_user: debian
-      ed25519_fingerprint: AAAAC3NzaC1lZDI1NTE5AAAAINyGs6blVkcZSbea3s3vABy29vAFTlvWbgfLc4AsENjV
-      ota_source_repository: https://github.com/OpenTermsArchive/GenAI-declarations.git
+    86.54.83.121:
+      ansible_user: ota
+      ed25519_fingerprint: AAAAC3NzaC1lZDI1NTE5AAAAIJBHgvX+CrW+ElaiWkL0CWPd1ZAklakkJA8xSC3O9WyB
+      ota_source_repository: https://github.com/OpenTermsArchive/genai-contrib-declarations.git
