@@ -1,5 +1,5 @@
 id: genai-contrib
-name: Generative AI
+name: Generative AI Contrib
 tagline: Most popular generative AI services
 description: |
   The **Generative AI Contrib** collection tracks terms of the most popular generative AI services.
@@ -16,7 +16,11 @@ logo: https://opentermsarchive.org/images/collections/generative-ai.png
 languages: [en]
 jurisdictions: [EU,CN]
 trackingPeriods:
+  - startDate: 2025-12-02
+    schedule: "30 */12 * * *"
+    serverLocation: Dublin, IE
   - startDate: 2023-09-26
+    endDate: 2025-12-01
     schedule: "30 */12 * * *"
     serverLocation: London, GB
 governance:
@@ -28,16 +32,16 @@ governance:
     url: https://opentermsarchive.org
     logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black-small.png
     roles: [administrator, maintainer]
-  Sciences Po Law School Clinic:
-    url: https://www.sciencespo.fr/ecole-droit/en/clinic/presentation/
-    logo: https://opentermsarchive.org/images/contributors/sciences-po-law-school-clinic.png
-    roles: [curator, maintainer, sponsor]
+  # Sciences Po Law School Clinic:
+  #  url: https://www.sciencespo.fr/ecole-droit/en/clinic/presentation/
+  #  logo: https://opentermsarchive.org/images/contributors/sciences-po-law-school-clinic.png
+  #  roles: [curator, maintainer, sponsor]
 
 i18n:
   fr: 
     tagline: Services d'IA générative les plus populaires
     description: | 
-      La collection **Generative AI** suit les conditions d'utilisation des services d'intelligence artificielle générative les plus populaires.
+      La collection **Generative AI Contrib** suit les conditions d'utilisation des services d'intelligence artificielle générative les plus populaires.
       
       Elle vise à engager l'analyse des changements apportés à ces documents, à évaluer la conformité des services d'IA générative aux projets de lois de régulations et à étudier l'évolution du paysage réglementaire.
       
@@ -46,7 +50,7 @@ i18n:
       Ministry for Europe and Foreign Affairs:
         name: Ministère de l'Europe et des Affaires étrangères
         url: https://www.diplomatie.gouv.fr
-      Sciences Po Law School Clinic:
-        name: Clinique de l'École de droit de Sciences Po
-        url: https://www.sciencespo.fr/ecole-droit/fr/clinique/presentation/
-        logo: https://opentermsarchive.org/images/contributors/sciences-po-ecole-de-droit.png
+      # Sciences Po Law School Clinic:
+      #  name: Clinique de l'École de droit de Sciences Po
+      #  url: https://www.sciencespo.fr/ecole-droit/fr/clinique/presentation/
+      #  logo: https://opentermsarchive.org/images/contributors/sciences-po-ecole-de-droit.png
