@@ -4,8 +4,8 @@
       "versions": {
         "storage": {
           "git": {
-            "snapshotIdentiferTemplate": "https://github.com/OpenTermsArchive/GenAI-snapshots/commit/%SNAPSHOT_ID",
-            "repository": "git@github.com:OpenTermsArchive/GenAI-versions.git",
+            "snapshotIdentiferTemplate": "https://github.com/OpenTermsArchive/genai-contrib-snapshots/commit/%SNAPSHOT_ID",
+            "repository": "git@github.com:OpenTermsArchive/genai-contrib-versions.git",
             "path": "./data/versions"
           }
         }
@@ -13,7 +13,7 @@
       "snapshots": {
         "storage": {
           "git": {
-            "repository": "git@github.com:OpenTermsArchive/GenAI-snapshots.git",
+            "repository": "git@github.com:OpenTermsArchive/genai-contrib-snapshots.git",
             "path": "./data/snapshots"
           }
         }
@@ -31,15 +31,15 @@
     "reporter": {
       "githubIssues": {
         "repositories": {
-          "declarations": "OpenTermsArchive/GenAI-declarations",
-          "versions": "OpenTermsArchive/GenAI-versions",
-          "snapshots": "OpenTermsArchive/GenAI-snapshots"
+          "declarations": "OpenTermsArchive/genai-contrib-declarations",
+          "versions": "OpenTermsArchive/genai-contrib-versions",
+          "snapshots": "OpenTermsArchive/genai-contrib-snapshots"
         }
       }
     },
     "dataset": {
-      "title": "GenAI",
-      "versionsRepositoryURL": "https://github.com/OpenTermsArchive/GenAI-versions"
+      "title": "GenAI Contrib",
+      "versionsRepositoryURL": "https://github.com/OpenTermsArchive/genai-contrib-versions"
     },
     "logger": {
       "timestampPrefix": false
