@@ -1,5 +1,5 @@
 {
-  "projectName": "GenAI-declarations",
+  "projectName": "genai-contrib-declarations",
   "projectOwner": "OpenTermsArchive",
   "files": [
     ".all-contributors.md"
