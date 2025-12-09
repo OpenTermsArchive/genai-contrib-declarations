@@ -2,7 +2,7 @@ id: genai-contrib
 name: Generative AI Contrib
 tagline: Most popular generative AI services
 description: |
-  The **Generative AI Contrib** collection tracks terms of the most popular generative AI services.
+  The **Generative AI Contrib** collection tracks terms of the most popular generative AI services and is open to all contributions.
   
   Its aim is to analyze the changes made to these documents, to assess the compliance of generative AI services with draft regulatory laws, and to study the evolution of the regulatory landscape.
   
@@ -41,7 +41,7 @@ i18n:
   fr: 
     tagline: Services d'IA générative les plus populaires
     description: | 
-      La collection **Generative AI Contrib** suit les conditions d'utilisation des services d'intelligence artificielle générative les plus populaires.
+      La collection **Generative AI Contrib** suit les conditions d'utilisation des services d'intelligence artificielle générative les plus populaires et est ouverte à toutes contributions.
       
       Elle vise à engager l'analyse des changements apportés à ces documents, à évaluer la conformité des services d'IA générative aux projets de lois de régulations et à étudier l'évolution du paysage réglementaire.
       
