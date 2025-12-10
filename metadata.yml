@@ -31,7 +31,7 @@ governance:
   Open Terms Archive:
     url: https://opentermsarchive.org
     logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black-small.png
-    roles: [administrator, maintainer]
+    roles: [sysadmin, maintainer]
   # Sciences Po Law School Clinic:
   #  url: https://www.sciencespo.fr/ecole-droit/en/clinic/presentation/
   #  logo: https://opentermsarchive.org/images/contributors/sciences-po-law-school-clinic.png
