@@ -2,16 +2,16 @@
   "name": "Incredible",
   "terms": {
     "Terms of Service": {
-      "fetch": "https://www.incredible.one/policy/terms-and-conditions",
+      "fetch": "https://web.incredible.one/policy/terms-and-conditions",
       "select": [
-        "[data-framer-root]"
+        "main"
       ],
       "executeClientScripts": true
     },
     "Privacy Policy": {
-      "fetch": "https://www.incredible.one/policy/privacy-policy",
+      "fetch": "https://web.incredible.one/policy/privacy-policy",
       "select": [
-        "[data-framer-root]"
+        "main"
       ],
       "executeClientScripts": true
     }
