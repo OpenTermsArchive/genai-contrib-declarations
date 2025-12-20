@@ -1,0 +1,26 @@
+{
+  "name": "Stability AI",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://stability.ai/terms-of-service",
+      "select": [
+        ".content"
+      ],
+      "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://stability.ai/privacypolicy",
+      "select": [
+        ".content"
+      ],
+      "executeClientScripts": true
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://stability.ai/use-policy",
+      "select": [
+        ".content"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
