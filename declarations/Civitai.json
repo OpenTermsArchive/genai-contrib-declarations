@@ -1,0 +1,19 @@
+{
+  "name": "Civitai",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://civitai.com/content/tos",
+      "select": [
+        ".mantine-Container-root"
+      ],
+      "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://civitai.com/content/privacy",
+      "select": [
+        ".mantine-Container-root"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
