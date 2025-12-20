@@ -1,0 +1,24 @@
+{
+  "name": "Sana",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://sanalabs.com/download/legal/master-services-agreement.pdf"
+    },
+    "Privacy Policy": {
+      "fetch": "https://sanalabs.com/legal/privacy-notice/",
+      "select": [
+        ".wrap"
+      ],
+      "executeClientScripts": true
+    },
+    "Data Processor Agreement": {
+      "fetch": "https://sanalabs.com/download/legal/data-processing-addendum.pdf"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://sanalabs.com/download/legal/policies/acceptable-use-policy.pdf"
+    },
+    "Service Level Agreement": {
+      "fetch": "https://sanalabs.com/download/legal/Sana-Labs-Service-Level.pdf"
+    }
+  }
+}
