@@ -4,15 +4,15 @@
     "Terms of Service": {
       "fetch": "https://murf.ai/resources/terms_of_service/",
       "select": [
-        ".post__header",
-        ".post__entry"
-      ]
+        ".main-wrapper"
+      ],
+      "remove": ".blog_toc-wrapper"
     },
     "Privacy Policy": {
       "select": [
-        ".post__header",
-        ".post__entry"
+        ".main-wrapper"
       ],
+      "remove": ".blog_toc-wrapper",
       "combine": [
         {
           "fetch": "https://murf.ai/resources/privacy_policy/"
