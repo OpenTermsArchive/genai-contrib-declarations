@@ -5,7 +5,7 @@
       "fetch": "https://chat.qwen.ai/legal-agreement/terms-of-service",
       "executeClientScripts": true,
       "select": [
-        ".legalPage"
+        ".app"
       ],
       "remove": [
         "img[src*=\"qwen_icon\"]"
@@ -15,7 +15,7 @@
       "fetch": "https://chat.qwen.ai/legal-agreement/privacy-policy",
       "executeClientScripts": true,
       "select": [
-        ".legalPage"
+        ".app"
       ],
       "remove": [
         "img[src*=\"qwen_icon\"]"
