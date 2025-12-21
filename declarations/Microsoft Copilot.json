@@ -2,32 +2,13 @@
   "name": "Microsoft Copilot",
   "terms": {
     "Terms of Service": {
-      "fetch": "https://www.bing.com/new/termsofuse?setlang=en",
-      "select": [
-        "#page_content"
-      ],
-      "remove": [
-        ".cdx_mkt_brand"
-      ],
+      "fetch": "https://www.microsoft.com/en-us/microsoft-copilot/for-individuals/termsofuse",
+      "select": "main",
       "executeClientScripts": true
     },
     "Privacy Policy": {
-      "fetch": "https://privacy.microsoft.com/en-ie/privacystatement",
-      "select": [
-        ".col:nth-child(3)",
-        "#areaheading-uidda881 > .row"
-      ],
-      "remove": [
-        ".expand_collapse",
-        ".div_print",
-        ".nav_content",
-        ".LearnMoreNavigation",
-        ".TopNavigation",
-        ".CollectingYourInfoRightNav",
-        ".gcc_cookies",
-        "#dvGroupModules",
-        "#dvServicesAgreement"
-      ]
+      "fetch": "https://www.microsoft.com/en-us/privacy/privacystatement",
+      "select": "main"
     }
   }
 }
