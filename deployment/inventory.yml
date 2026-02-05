@@ -3,4 +3,4 @@ all:
     86.54.83.121:
       ansible_user: ota
       ed25519_fingerprint: AAAAC3NzaC1lZDI1NTE5AAAAIJBHgvX+CrW+ElaiWkL0CWPd1ZAklakkJA8xSC3O9WyB
-      ota_source_repository: https://github.com/OpenTermsArchive/genai-contrib-declarations.git
+      ota_collection_repository: https://github.com/OpenTermsArchive/genai-contrib-declarations.git
