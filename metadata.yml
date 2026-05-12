@@ -25,21 +25,12 @@ trackingPeriods:
     schedule: "30 */12 * * *"
     serverLocation: London, GB
 governance:
-  Ministry for Europe and Foreign Affairs:
-    url: https://www.diplomatie.gouv.fr/en/
-    logo: https://opentermsarchive.org/images/contributors/meae.png
-    roles: [sponsor]
   Open Terms Archive:
     url: https://opentermsarchive.org
     logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black-small.png
-    roles: [host, sysadmin]
+    roles: [host, sysadmin, sponsor]
   Volunteer contributors:
     roles: [curator, maintainer]
-
-  # Sciences Po Law School Clinic:
-  #  url: https://www.sciencespo.fr/ecole-droit/en/clinic/presentation/
-  #  logo: https://opentermsarchive.org/images/contributors/sciences-po-law-school-clinic.png
-  #  roles: [curator, maintainer, sponsor]
 
 i18n:
   fr: 
@@ -50,12 +41,3 @@ i18n:
       Elle a été initialement créée par la [Clinique de l'École de droit de Sciences Po](https://www.sciencespo.fr/ecole-droit/fr/clinique/presentation/) pour le projet « Éthique et réglementation de l'intelligence artificielle (IA) » du programme de recherche [DIGILAW](https://www.sciencespo.fr/ecole-droit/fr/clinique/digilaw/). Elle visait à évaluer l’évolution de la conformité des services d'IA générative aux projets de règlementations et à étudier l’impact des changements réglementaires.
       
       À la fin du projet de recherche, la collection a été reprise par des contributeurices bénévoles et ouverte à toutes les contributions.
-
-    governance:
-      Ministry for Europe and Foreign Affairs:
-        name: Ministère de l'Europe et des Affaires étrangères
-        url: https://www.diplomatie.gouv.fr
-      # Sciences Po Law School Clinic:
-      #  name: Clinique de l'École de droit de Sciences Po
-      #  url: https://www.sciencespo.fr/ecole-droit/fr/clinique/presentation/
-      #  logo: https://opentermsarchive.org/images/contributors/sciences-po-ecole-de-droit.png
