@@ -20,21 +20,14 @@
       }
     },
     "fetcher": {
-      "language": "en"
-    },
-    "notifier": {
-      "sendInBlue": {
-        "updatesListId": 0,
-        "updateTemplateId": 0
-      }
+      "language": "en-GB, en"
     },
     "reporter": {
-      "githubIssues": {
-        "repositories": {
-          "declarations": "OpenTermsArchive/genai-contrib-declarations",
-          "versions": "OpenTermsArchive/genai-contrib-versions",
-          "snapshots": "OpenTermsArchive/genai-contrib-snapshots"
-        }
+      "type": "github",
+      "repositories": {
+        "declarations": "OpenTermsArchive/genai-contrib-declarations",
+        "versions": "OpenTermsArchive/genai-contrib-versions",
+        "snapshots": "OpenTermsArchive/genai-contrib-snapshots"
       }
     },
     "dataset": {
@@ -44,12 +37,17 @@
     "logger": {
       "timestampPrefix": false,
       "smtp": {
-        "port": 2525
+        "host": "smtp-relay.brevo.com",
+        "port": 587,
+        "username": "admin@opentermsarchive.org"
       }
     },
     "collection-api": {
       "port": 3000,
-      "basePath": "/collection-api"
+      "basePath": "/collection-api",
+      "feed": {
+        "versionUrlTemplate": "https://github.com/OpenTermsArchive/genai-contrib-versions/commit/%VERSION_ID"
+      }
     }
   }
 }
