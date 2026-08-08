@@ -2,38 +2,35 @@
   "name": "Le Chat",
   "terms": {
     "Terms of Service": {
-      "fetch": "https://mistral.ai/terms/",
+      "fetch": "https://legal.mistral.ai/terms/eu-consumers-terms-of-service",
       "select": [
-        "#terms-of-service",
-        "#additional-terms-for-consumers",
-        "#additional-product-terms",
-        "#additional-terms-for-ai-laws-responsibilities"
+        ".legal-rich-text"
       ]
     },
     "Privacy Policy": {
-      "fetch": "https://mistral.ai/terms/",
+      "fetch": "https://legal.mistral.ai/terms/privacy-policy",
       "select": [
-        "#privacy-policy"
+        ".legal-rich-text"
       ]
     },
     "Trackers Policy": {
-      "fetch": "https://mistral.ai/terms/",
+      "fetch": "https://legal.mistral.ai/terms/cookie-policy",
       "select": [
-        "#cookie-policy"
+        ".legal-rich-text"
       ]
     },
     "Commercial Terms": {
-      "fetch": "https://mistral.ai/terms/",
+      "fetch": "https://legal.mistral.ai/terms/commercial-terms-of-service",
       "select": [
-        "#partner-served-deployment-terms"
+        ".legal-rich-text"
       ]
     },
     "Data Processor Agreement": {
       "combine": [
         {
-          "fetch": "https://mistral.ai/terms/",
+          "fetch": "https://legal.mistral.ai/terms/data-processing-addendum",
           "select": [
-            "#data-processing-addendum"
+            ".legal-rich-text"
           ]
         },
         {
