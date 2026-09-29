@@ -6,7 +6,8 @@
         ".notion-page-content"
       ],
       "remove": [
-        ".notion-table_of_contents-block"
+        ".notion-table_of_contents-block",
+        "img"
       ],
       "filter": [
         "normalizeNotionLinks"
@@ -27,7 +28,8 @@
         ".notion-page-content"
       ],
       "remove": [
-        ".notion-table_of_contents-block"
+        ".notion-table_of_contents-block",
+        "img"
       ],
       "filter": [
         "normalizeNotionLinks"
@@ -40,7 +42,8 @@
         ".notion-page-content"
       ],
       "remove": [
-        ".notion-table_of_contents-block"
+        ".notion-table_of_contents-block",
+        "img"
       ],
       "filter": [
         "normalizeNotionLinks"
