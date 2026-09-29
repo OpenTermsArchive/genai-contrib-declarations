@@ -1,0 +1,40 @@
+{
+  "name": "Notion",
+  "terms": {
+    "Terms of Service": {
+      "select": [
+        ".notion-page-content"
+      ],
+      "remove": [
+        ".notion-table_of_contents-block",
+        "img"
+      ],
+      "filter": [
+        "normalizeNotionLinks"
+      ],
+      "executeClientScripts": true,
+      "combine": [
+        {
+          "fetch": "https://notion.notion.site/Personal-Use-Terms-of-Service-00e4e5d0f2b9411cbee6493f15779500"
+        },
+        {
+          "fetch": "https://notion.notion.site/Notion-AI-and-Notion-Credit-Supplementary-Terms-fa9034c8b5a04818a6baf3eac2adddbb"
+        }
+      ]
+    },
+    "Data Processor Agreement": {
+      "fetch": "https://notion.notion.site/Data-Processing-Addendum-361b540101274b1fa7e16b90402b0d99",
+      "select": [
+        ".notion-page-content"
+      ],
+      "remove": [
+        ".notion-table_of_contents-block",
+        "img"
+      ],
+      "filter": [
+        "normalizeNotionLinks"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
