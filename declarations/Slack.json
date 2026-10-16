@@ -1,0 +1,31 @@
+{
+  "name": "Slack",
+  "terms": {
+    "Terms of Service": {
+      "select": [
+        "main#main"
+      ],
+      "combine": [
+        {
+          "fetch": "https://slack.com/main-services-agreement"
+        },
+        {
+          "fetch": "https://slack.com/slack-supplemental-terms"
+        }
+      ]
+    },
+    "Privacy Policy": {
+      "select": [
+        "main#main"
+      ],
+      "combine": [
+        {
+          "fetch": "https://slack.com/trust/privacy/privacy-policy"
+        },
+        {
+          "fetch": "https://slack.com/trust/data-management/privacy-principles"
+        }
+      ]
+    }
+  }
+}
