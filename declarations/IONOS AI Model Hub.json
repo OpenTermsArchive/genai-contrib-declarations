@@ -1,0 +1,11 @@
+{
+  "name": "IONOS AI Model Hub",
+  "terms": {
+    "Data Processor Agreement": {
+      "fetch": "https://cloud.ionos.de/terms-gtc/terms-enterprise-cloud/enterprise-datenschutzpaket/",
+      "select": [
+        ".sheet"
+      ]
+    }
+  }
+}
