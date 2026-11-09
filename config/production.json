@@ -31,14 +31,6 @@
     "fetcher": {
       "language": "en-GB, en"
     },
-    "reporter": {
-      "type": "github",
-      "repositories": {
-        "declarations": "OpenTermsArchive/genai-contrib-declarations",
-        "versions": "OpenTermsArchive/genai-contrib-versions",
-        "snapshots": "OpenTermsArchive/genai-contrib-snapshots"
-      }
-    },
     "dataset": {
       "title": "GenAI Contrib",
       "versionsRepositoryURL": "https://github.com/OpenTermsArchive/genai-contrib-versions"
@@ -56,6 +48,29 @@
       "basePath": "/collection-api",
       "feed": {
         "versionUrlTemplate": "https://github.com/OpenTermsArchive/genai-contrib-versions/commit/%VERSION_ID"
+      }
+    }
+  },
+  "@opentermsarchive/issue-reporter": {
+    "type": "github",
+    "repositories": {
+      "declarations": "OpenTermsArchive/genai-contrib-declarations",
+      "versions": "OpenTermsArchive/genai-contrib-versions",
+      "snapshots": "OpenTermsArchive/genai-contrib-snapshots"
+    },
+    "collectionApi": {
+      "url": "http://127.0.0.1:3000/collection-api/v1"
+    },
+    "logger": {
+      "timestampPrefix": false,
+      "sendMailOnError": {
+        "to": "admin@opentermsarchive.org",
+        "from": "noreply@opentermsarchive.org"
+      },
+      "smtp": {
+        "host": "smtp-relay.brevo.com",
+        "port": 587,
+        "username": "admin@opentermsarchive.org"
       }
     }
   }
