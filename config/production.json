@@ -31,14 +31,6 @@
     "fetcher": {
       "language": "en-GB, en"
     },
-    "reporter": {
-      "type": "github",
-      "repositories": {
-        "declarations": "OpenTermsArchive/genai-contrib-declarations",
-        "versions": "OpenTermsArchive/genai-contrib-versions",
-        "snapshots": "OpenTermsArchive/genai-contrib-snapshots"
-      }
-    },
     "dataset": {
       "title": "GenAI Contrib",
       "versionsRepositoryURL": "https://github.com/OpenTermsArchive/genai-contrib-versions"
