@@ -27,7 +27,8 @@
         ".gcc_cookies",
         "#dvGroupModules",
         "#dvServicesAgreement"
-      ]
+      ],
+      "executeClientScripts": true
     }
   }
 }
